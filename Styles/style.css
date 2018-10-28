@@ -23,7 +23,7 @@ html {
 
 .outerWrapper {
     max-width:1440px;
-    width:90%;
+    width:91%;
     margin:0 auto;
     
 }
@@ -35,6 +35,7 @@ header{
     background-size:cover;
     background-position:center;
     height:100vh;
+    position: relative;
     
 }
 
@@ -51,32 +52,53 @@ h1{
 
 /* 'welcome to shutter' */
 .shutter {
-    position:relative;
+    position: absolute;
+    /* width:476px; */
+    margin: auto;
+    left:561px;
+    top:555px;
 }
 
+
+
 /* h2 */
-h2{
+h2 span:first-child {
     font-family:'Lato', sans-serif;
     font-size:3.2rem;
-    color:white;
+    color: white;
     font-weight:bold;
     text-align:center;
-    position: center;
-    /* padding-bottom:50px; */
+    text-transform:uppercase;
+    width:236px;
+    height:48px;
+    position: absolute;
+    left:119px;
+    top:20px;
     
-} 
+}
+    
+    
+
+
+
 /* shutter */
-h2 span{
+h2 span:last-child{
+    color:white;
+    width:476px;
+    height:145px;
     font-family:'Playfair Display', serif;
     font-size:13rem;
     display:block;
+    margin-bottom:100px;
+    
+
 
 
 }
 
 ul {
     float:right;
-    width:50%;
+    /* width:50%; */
     display:inline-block;
     text-align:right;
     padding-top:2.5%;
@@ -99,19 +121,74 @@ ul li a {
     margin-left: 17px;
 }
 
+.socialMedia {
+    margin-top:135px;
+}
 
-.socialMedia ul li a {
+.socialMedia li {
+    display:block;
+
+
+}
+
+
+.socialMedia li a {
     display:block;
     width:100px;
     height:25px;
     font-size:2rem;
     line-height:1.3;
     margin-bottom:15px;
-    
+    margin-left:0;
+} 
+
+
+/* About shutter section styles */
+.aboutShutter {
+    background:#f0f5ff;
+
+}
+
+.aboutShutter h2 {
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    font-size:4.2rem;
+    margin:0 auto;
+    /* width:470px; */
+    /* height:40px; */
+    padding:100px 0 30px 0;
+
+}
+
+.aboutShutter p{
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    font-size:1.8rem;
+    width:683px;
+    height:85px;
+    margin:0 auto;
+
+}
+
+.buttonWrapper{
+    width:214px;
+    margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 
-
-.socialMedia li {
-    display:block;
+button{
+    height:50px;
+    background:#e7a8e6;
+    margin-top:30px;
 }
+
+button span {
+        font-family: 'Lato', sans-serif;
+        font-size:1.8rem;
+        color:#1f2022;
+        text-transform:uppercase;
+        padding: 17px 20px 17px 21px;
+
+}
+
