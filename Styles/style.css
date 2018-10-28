@@ -192,3 +192,15 @@ button span {
 
 }
 
+.gallerySection{
+    background:#fcfcfc;
+}
+
+.gallery img {
+    margin:100px 3.1% 100px 0;
+    width: 31%; /* 400px divided by 80% of 1600 */
+}
+
+.gallery img:last-of-type {
+    margin-right:0;
+}
