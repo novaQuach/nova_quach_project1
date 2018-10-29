@@ -177,7 +177,7 @@ ul li a {
 }
 
 
-button{
+.findMore{
     height:50px;
     background:#e7a8e6;
     margin-top:30px;
@@ -192,7 +192,7 @@ button span {
 
 }
 
-.gallerySection{
+.gallerySection {
     background:#fcfcfc;
 }
 
@@ -203,4 +203,94 @@ button span {
 
 .gallery img:last-of-type {
     margin-right:0;
+}
+
+.midNavSection{
+    background: url(../Assets/image-5.png);
+    background-size:cover;
+    height:300px;
+}
+
+.midNav {
+    width: 900px; /*900/1600 *100%)*/
+    padding-top:100px;
+    padding-left:0;
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.midNav li {
+    width: 179px;  /* width of li = 900px or 56.5% ; 56.25/4*/
+    margin-right: 58px; 
+}
+
+.midNav li:last-child {
+    margin-right: 0;
+}
+
+.midNav li a {
+    font-size:4rem;  
+    text-align:center;
+}
+
+.midNav p {
+    margin-top:23.5px;
+    font-family:'Playfair Display', serif;
+    color:white;
+    text-align:center;
+    font-size:3rem;
+    font-weight:bold;
+    /*(60.7px / 900px)*/
+}
+
+/* Behind the scenes styles */
+.behindSection {
+    padding-top:100px;
+}
+
+.lens{
+    width: 65%;
+    display:inline-block;
+    margin-left:42px;
+    
+}    
+
+.lens h2 {
+    font-size:4.2rem;
+    font-family:'PlayfairDisplay', serif;
+    text-align:left;
+    float:right;
+    margin: 0px auto 30px auto;
+    width:100%;
+}
+
+.lens p{
+    text-align:center;
+    font-family:'Lato', sans-serif;
+    font-size:1.8rem;
+    float:right;
+    text-align:left;
+    width:100%;
+    height:160px;
+    margin:0 auto;
+}
+
+
+.lens .findMore {
+    float:left;
+}
+
+
+.lens button span {
+    font-family: 'Lato', sans-serif;
+    font-size:1.8rem;
+    line-height:1.61;
+    text-align:center;
+}
+
+.behindSection img {
+    float:left;
+    max-width: 100%;
 }
