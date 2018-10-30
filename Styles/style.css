@@ -34,7 +34,7 @@ header{
     background: url(../Assets/image-1.jpg);
     background-size:cover;
     background-position:center;
-    height:100vh;
+    height:100%;
     position: relative;
     
 }
@@ -52,37 +52,40 @@ h1{
 
 /* 'welcome to shutter' */
 .shutter {
-    position: absolute;
+    /* position: absolute; */
     /* width:476px; */
     margin: auto;
-    left:561px;
-    top:555px;
+    /* left:561px; */
+    /* top:555px; */
+    text-align: center;
 }
 
+.shutter span {
 
+ }
 
 /* h2 */
-h2 span:first-child {
+.shutter div:first-child {
     font-family:'Lato', sans-serif;
     font-size:3.2rem;
     color: white;
     font-weight:bold;
     text-align:center;
     text-transform:uppercase;
-    width:236px;
+    /* width:236px; */
     height:48px;
-    position: absolute;
-    left:119px;
-    top:20px;
+    /* position: absolute; */
+    /* left:119px; */
+    /* top:20px; */
     
 }
-    
+
 
 /* shutter */
-h2 span:last-child{
+.shutter div:last-child{
     color:white;
-    width:476px;
-    height:145px;
+    /* width:476px; */
+    /* height:145px; */
     font-family:'Playfair Display', serif;
     font-size:13rem;
     display:block;
