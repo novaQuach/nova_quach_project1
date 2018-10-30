@@ -90,11 +90,7 @@ h2 span:last-child{
 
 }
 
-h3 {
-    text-transform:uppercase;
-    color:white;
-    text-align:center;
-}
+
 
 ul {
     float:right;
@@ -183,6 +179,7 @@ ul li a {
     margin-top:30px;
     width:214px;
     font-weight:bold;
+    border:none;
 }
 
 button span {
@@ -345,6 +342,7 @@ button span {
 }
 
 .readMore {
+    font-family: 'Lato', sans-serif;
     font-size:1.8rem;
     font-weight:bold;
     line-height:1.61;
@@ -353,6 +351,7 @@ button span {
     width:160px;
     height:50px;
     text-transform:uppercase;
+    border:none;
 }
 .readMore span {
     padding:0;
@@ -393,10 +392,18 @@ button span {
 
 .photography .readMore {
     margin: 30px 140px 100px 0;
+    font-weight:700;
 }
 /* Aside styles */
 .infoSec {
     background:#232323;
+    background-size:cover;
+}
+
+.infoSec {
+    padding: 100px 0 100px 0;
+    height:343px;
+    
 }
 
 .infoSec ul li {
@@ -406,8 +413,95 @@ button span {
 
 .infoSec ul {
     float:none;
+    padding:0;
 }
-.infoOne{
-    /* width */
-    /*  */
+
+
+h3 {
+    text-transform:uppercase;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size:2.4rem;
+    font-weight:400;
+    margin: 0 0 3px 0;
+
+}
+
+.infoOne {
+    width:25%;
+    float:left;
+    text-align:left;
+}
+
+/* .plainText {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.61;
+    font-weight:100;
+} */
+
+.plainText {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.61;
+    font-weight:100;
+}
+.infoTwo p {
+    color:white;
+    margin:3px 0 11px 0;
+}
+
+
+.infoOne li {
+    text-align:left;
+}
+
+.infoTwo{
+    width:50%;
+    float:left;
+    text-align:center;
+}
+
+
+.infoThree {
+    width:25%;
+    float:left;
+    text-align:right;
+}
+
+.infoThree {
+    text-transform:uppercase;
+}
+
+
+
+
+input[type=email] {
+    width:75%;
+    float:left;
+    height:50px;
+    text-align:left;
+    padding-left:32.7px;
+    color:#232323;
+    border:0;
+    margin:11px 0 129px 0;
+}
+
+input[type=submit]{
+    width:25%;
+    margin:0;
+    float:left;
+    margin-top:11px;
+}
+
+footer{
+    background:black;
+}
+
+h6 {
+    color:white;
+    margin:0;
+    text-align:center;
+    width:100%;
+    float:right;
 }

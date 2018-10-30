@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shutter</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400|Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400|Playfair+Display:400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
     <link rel="stylesheet" href="Styles/style.css">
@@ -123,38 +123,45 @@
         </div>
     </section>
 
-    <aside>
-        <div class="infoSec wrapper">
+    <aside class="infoSec">
+        <div class="wrapper clearfix">
             <div class="infoOne">
                 <h3>Contact</h3>
                 <ul>
-                    <li>info@email.com</li>
-                    <li>123-456-7890</li>
-                    <li>123 some road,</li>
-                    <li>Toronto, ON</li>
+                    <li class="plainText">info@email.com</li>
+                    <li class="plainText">123 - 456 - 7890</li>
+                    <li class="plainText">123 some road,</li>
+                    <li class="plainText">Toronto, ON</li>
                 </ul>
             </div>
             
             <div class="infoTwo">
                 <h3>Stay udpated</h3>
-                <p>Subscribe to our newsletter to stay updated</p>
-                <input type="form" placeholder="email address">
-                <button>Subscribe</button>
+                <p class="plainText">Subscribe to our newsletter to stay updated.</p>
+                    <form class="clearfix">
+                        <input type="email" class="plainText" id="email"placeholder="email address">
+                        <label for="email"></label>
+                        
+                        <input type="submit"class="readMore" value="Subscribe"id ="submit">
+                        <label for="submit"></label>
+                    </form>
             </div>
 
             <nav class="infoThree">
                 <h3>Pages</h3>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li class="plainText">Home</li>
+                    <li class="plainText">About</li>
+                    <li class="plainText">Blog</li>
+                    <li class="plainText">Contact</li>
                 </ul>
             </nav>
         </div>
     </aside>
     <footer>
-        <h6>Copyright &Copy 2018 HackerYou</h6>
+        <div class="wrapper clearfix">
+            <h6 class="plainText">Copyright &copy; 2018 HackerYou</h6>
+        </div>
     </footer>
 </body>
 </html>
