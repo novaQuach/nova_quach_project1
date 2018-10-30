@@ -39,6 +39,7 @@ header{
     
 }
 
+
 h1{
     font-family:'PlayfairDisplay', serif;
     font-size: 4.2rem;
@@ -63,6 +64,9 @@ h1{
 .shutter span {
 
  }
+h2 {
+    position:relative;
+}
 
 /* h2 */
 .shutter div:first-child {
@@ -90,6 +94,7 @@ h1{
     font-size:13rem;
     display:block;
     margin-bottom:100px;
+    position:absolute;
 
 }
 
@@ -503,7 +508,7 @@ footer{
 
 h6 {
     color:white;
-    margin:0;
+    margin:0 0 10px 0;
     text-align:center;
     width:100%;
     float:right;
