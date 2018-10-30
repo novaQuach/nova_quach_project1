@@ -64,9 +64,9 @@ h1{
 .shutter span {
 
  }
-h2 {
+/* h2 {
     position:relative;
-}
+} */
 
 /* h2 */
 .shutter div:first-child {
@@ -76,28 +76,18 @@ h2 {
     font-weight:bold;
     text-align:center;
     text-transform:uppercase;
-    /* width:236px; */
     height:48px;
-    /* position: absolute; */
-    /* left:119px; */
-    /* top:20px; */
-    
 }
 
 
 /* shutter */
 .shutter div:last-child{
     color:white;
-    /* width:476px; */
-    /* height:145px; */
     font-family:'Playfair Display', serif;
     font-size:13rem;
     display:block;
     margin-bottom:100px;
-    position:absolute;
-
 }
-
 
 
 ul {
