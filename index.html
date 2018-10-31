@@ -45,9 +45,8 @@
             </div>  
             <div class="wrapper">
                 <div class="shutter">
-                
                     <div>Welcome to</div>
-                    <div>Shutter</div>  
+                    <div>Shutter</div>
                 </div>
             </div>
         </header>
@@ -100,6 +99,7 @@
 
         <section>
             <div class="natSection clearfix">
+                <img class="mobileOnly" src="Assets/image-7.png" alt="Large rock in large body of water in setting sun">
                 <div class="nature clearfix">
                     <div class="innerNature">
                         <h2>Nature & Scenery</h2>
@@ -107,7 +107,7 @@
                         <button class="readMore"><span>Read more</span></button>
                     </div> 
                 </div>
-                <img src="Assets/image-7.png" alt="Large rock in large body of water in setting sun">
+                <img class="desktopOnly" src="Assets/image-7.png" alt="Large rock in large body of water in setting sun">
             </div>
             </section>
 
@@ -124,7 +124,7 @@
             </div>
         </section>
     </main>
-    <aside class="infoSec">
+    <aside class="infoSec desktopOnly">
         <div class="wrapper clearfix">
             <div class="infoOne">
                 <h3>Contact</h3>
@@ -135,7 +135,6 @@
                     <li class="plainText">Toronto, ON</li>
                 </ul>
             </div>
-            
             <div class="infoTwo">
                 <h3>Stay udpated</h3>
                 <p class="plainText">Subscribe to our newsletter to stay updated.</p>
@@ -147,14 +146,47 @@
                         <label for="submit"></label>
                     </form>
             </div>
-
             <nav class="infoThree">
                 <h3>Pages</h3>
                 <ul>
-                    <li><a class= "plainText"href="#">Home</a></li>                
+                    <li><a class= "plainText"href="#">Home</a></li>
                     <li><a class="plainText"href="#">About</a></li>
-                    <li><a class="plainText"href='#'>Blog</li>
-                    <li><a class="plainText"href="#">Contact</li>
+                    <li><a class="plainText"href='#'>Blog</a></li>
+                    <li><a class="plainText"href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    
+    <aside class="infoSec mobileOnly">
+        <div class="wrapper">
+            <div class="infoTwo">
+                <h3>Stay udpated</h3>
+                <p class="plainText">Subscribe to our newsletter to stay updated.</p>
+                <form class="clearfix">
+                    <input type="email" class="plainText emailInput" id="email" placeholder="email address">
+                    <label for="email"></label>
+            
+                    <input type="submit" class="readMore submitSubscribe" value="Subscribe" id="submit">
+                    <label for="submit"></label>
+                </form>
+            </div>
+            <div class="infoOne">
+                <h3>Contact</h3>
+                <ul>
+                    <li class="plainText">info@email.com</li>
+                    <li class="plainText">123 - 456 - 7890</li>
+                    <li class="plainText">123 some road,</li>
+                    <li class="plainText">Toronto, ON</li>
+                </ul>
+            </div>
+            <nav class="infoThree">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a class="plainText" href="#">Home</a></li>
+                    <li><a class="plainText" href="#">About</a></li>
+                    <li><a class="plainText" href='#'>Blog</li>
+                    <li><a class="plainText" href="#">Contact</li>
                 </ul>
             </nav>
         </div>
