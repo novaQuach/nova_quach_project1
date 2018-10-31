@@ -308,7 +308,11 @@ ul li a {
 .behindSection img {
     float:left;
     /* max-width: 100%; */
-    width:30%;
+    width: 315px;
+}
+
+.behindSection p {
+    /* margin-bottom: 30px; */
 }
 
 /* Nature and Scenery Section */
