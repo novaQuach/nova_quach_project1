@@ -471,21 +471,18 @@ h3 {
 
 footer{
     background:black;
+    text-align: center;
 }
 
 h6 {
     color:white;
-    margin:0 0 10px 0;
+    margin:10px 0 10px 0;
     text-align:center;
     width:100%;
-    float:right;
+    display: inline-block;
 }
 
 /*Media query begins */
-/* behind the scenes starts to collapse */
-@media(max-width:1355px) {
-
-}
 
 
 .hamburgerMenu {
@@ -520,6 +517,10 @@ h6 {
 }
 
 @media(max-width:930px) {
+    .topNav {
+        padding-top: 18px;
+    }
+
     .topNav li:last-child {
         display:block;
     }
@@ -527,14 +528,22 @@ h6 {
         display:none;
     }
 
+    .behindSection {
+        text-align: center;
+    }
     .behindSection img {
-        margin: 0 auto 30px auto;
+        margin: 0 0 30px 0;
+        display: inline-block;
+        float: none;
+    }
+    .findMore {
+        display: inline-block;
     }
     .lens {
         width: 100%;
     }
 
-    .lens h2 {
+    .lens h2, .lens p {
         text-align: center;
     }
 
@@ -604,6 +613,7 @@ h6 {
 
 
 @media(max-width:768px) {
+
     header {
         height: 600px;
     }
@@ -661,5 +671,23 @@ h6 {
     .infoTwo, .infoThree {
         float: none;
         width: 100%;
+    }
+}
+
+
+@media(max-width:405px) {
+    header {
+        height: 500px;
+    }
+
+    .shutter div:first-child {
+        font-size: 1.8rem;
+    }
+    .shutter div:last-child {
+        font-size: 8rem;
+    }
+
+    .behindSection img {
+        width: 250px;
     }
 }
