@@ -149,8 +149,6 @@ ul li a {
     font-family: 'Playfair Display', serif;
     font-size:4.2rem;
     margin:0 auto;
-    /* width:470px; */
-    /* height:40px; */
     padding: 0 0 30px 0;
 
 }
@@ -159,9 +157,7 @@ ul li a {
     text-align:center;
     font-family: 'Lato', sans-serif;
     font-size:1.8rem;
-    /* width:683px; */
     width:53.4%;
-    height:85px;
     margin:0 auto;
     line-height:1.61;
 }
@@ -169,13 +165,6 @@ ul li a {
 .aboutShutter.wrapper button{
     margin: 0 auto;
 }
-
-/* .buttonWrapper{
-    width:214px;
-    margin: 0 auto;
-    padding-bottom: 100px;
-} */
-
 
 .findMore {
     height:50px;
@@ -223,13 +212,11 @@ ul li a {
 .midNavSection{
     background: url(../Assets/image-5.png);
     background-size:cover;
-    height:300px;
+    /* height:300px; */
 }
 
 .midNav {
-    width: 900px; /*900/1600 *100%)*/
-    padding-top:100px;
-    padding-left:0;
+    padding: 100px 0 68px 0;
     float:none;
     margin:0 auto;
     display: block;
@@ -269,7 +256,7 @@ ul li a {
 .lens{
     width:calc(70% - 42px);
     display:inline-block;
-    margin-left:42px;
+
     
 }    
 
@@ -292,27 +279,11 @@ ul li a {
 
 }
 
-
-/* .lens .findMore {
-    float:left;
-} */
-
-
-/* .lens button span {
-    font-family: 'Lato', sans-serif;
-    font-size:1.8rem;
-    line-height:1.61;
-    text-align:center;
-} */
-
 .behindSection img {
     float:left;
-    /* max-width: 100%; */
     width: 315px;
-}
-
-.behindSection p {
-    /* margin-bottom: 30px; */
+    margin-right: 42px;
+    margin-bottom: 30px;
 }
 
 /* Nature and Scenery Section */
@@ -420,8 +391,6 @@ ul li a {
 
 .infoSec {
     padding: 100px 0 100px 0;
-    height:343px;
-    
 }
 
 .infoSec ul li {
@@ -433,7 +402,6 @@ ul li a {
     float:none;
     padding:0;
 }
-
 
 h3 {
     text-transform:uppercase;
@@ -451,13 +419,6 @@ h3 {
     text-align:left;
 }
 
-/* .plainText {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.8rem;
-    line-height: 1.61;
-    font-weight:100;
-} */
-
 .plainText {
     font-family: 'Lato', sans-serif;
     font-size: 1.8rem;
@@ -468,7 +429,6 @@ h3 {
     color:white;
     margin:3px 0 11px 0;
 }
-
 
 .infoOne li {
     text-align:left;
@@ -492,9 +452,7 @@ h3 {
 }
 
 
-
-
-input[type=email] {
+.emailInput {
     width:75%;
     float:left;
     height:50px;
@@ -502,11 +460,11 @@ input[type=email] {
     padding-left:32.7px;
     color:#232323;
     border:0;
-    margin:11px 0 129px 0;
+    margin:11px 0 0 0;
 }
 
-input[type=submit]{
-    width:25%;
+.submitSubscribe {
+    width: 25%;
     margin:0;
     float:left;
     margin-top:11px;
@@ -543,8 +501,18 @@ h6 {
 /* 320px */
 /* mobile 400px; */
 /* 768px tablet */
+/* 930px */
 
-@media(max-width:768px) {
+@media(max-width:1200px) {
+    .emailInput {
+        width: 60%;
+    }
+    .submitSubscribe {
+        width: 40%;
+    }
+}
+
+@media(max-width:930px) {
     .topNav li:last-child {
         display:block;
     }
@@ -552,5 +520,51 @@ h6 {
         display:none;
     }
 
+    .gallery.wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    .gallery img {
+        width: 49%;
+        margin: 0;
+    }
 
+    .gallery img:last-child {
+        display: none;
+    }
+
+    .midNav li {
+        width: 120px;
+        /* display: block; */
+    }
+
+    .midNav p {
+        font-size: 2rem;
+    }
+
+    .emailInput {
+        width: 100%;
+    }
+    .submitSubscribe {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:768px) {
+    .midNav li,.midNav li:last-child {
+        display: block;
+        margin: 0 auto;
+        width: 160px;
+    }
+
+    .midNav p {
+        font-size: 3rem;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    ul li a {
+        margin: 0;
+    }
 }
