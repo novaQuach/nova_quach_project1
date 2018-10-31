@@ -100,8 +100,6 @@ ul {
 }
 
 
-
-
 ul li {
     display: inline-block; 
 }
@@ -142,6 +140,7 @@ ul li a {
 /* About shutter section styles */
 .aboutShutter {
     background:#f0f5ff;
+    padding: 100px 0 100px 0;
 
 }
 
@@ -152,7 +151,7 @@ ul li a {
     margin:0 auto;
     /* width:470px; */
     /* height:40px; */
-    padding:100px 0 30px 0;
+    padding: 0 0 30px 0;
 
 }
 
@@ -160,23 +159,28 @@ ul li a {
     text-align:center;
     font-family: 'Lato', sans-serif;
     font-size:1.8rem;
-    width:683px;
+    /* width:683px; */
+    width:53.4%;
     height:85px;
     margin:0 auto;
-
+    line-height:1.61;
 }
 
-.buttonWrapper{
+.aboutShutter.wrapper button{
+    margin: 0 auto;
+}
+
+/* .buttonWrapper{
     width:214px;
     margin: 0 auto;
     padding-bottom: 100px;
-}
+} */
 
 
 .findMore {
     height:50px;
     background:#e7a8e6;
-    margin-top:30px;
+    margin: 30px auto 0 auto;
     width:214px;
     font-weight:bold;
     border:none;
@@ -185,16 +189,23 @@ ul li a {
     font-size:1.8rem;
     line-height:1.61;
     text-align:center;
+    text-transform:uppercase;
+    color:#1f2022;
+    text-decoration:none;
 }
 
-button span {
+.aboutShutter .findMore {
+    display: block;
+}
+
+/* button span {
         font-family: 'Lato', sans-serif;
         font-size:1.8rem;
         color:#1f2022;
         text-transform:uppercase;
         /* padding: 17px 20px 17px 21px; */
 
-}
+} */
 
 .gallerySection {
     background:#fcfcfc;
@@ -251,8 +262,8 @@ button span {
 
 /* Behind the scenes styles */
 .behindSection {
-    padding-top:100px;
-    height: 515px;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 
 .lens{
@@ -266,7 +277,6 @@ button span {
     font-size:4.2rem;
     font-family:'PlayfairDisplay', serif;
     text-align:left;
-    float:right;
     margin: 0px auto 30px auto;
     width:100%;
 }
@@ -275,19 +285,17 @@ button span {
     text-align:center;
     font-family:'Lato', sans-serif;
     font-size:1.8rem;
-    float:right;
     text-align:left;
     width:100%;
-    height:160px;
     margin:0 auto;
     line-height:2.9rem;
 
 }
 
 
-.lens .findMore {
+/* .lens .findMore {
     float:left;
-}
+} */
 
 
 /* .lens button span {
@@ -304,12 +312,12 @@ button span {
 }
 
 /* Nature and Scenery Section */
-.NatSection {
+.natSection {
     max-width:100%;
     max-height:462px;
 }
 
-.Nature {
+.nature {
     background:#f0f5ff;
     height:462px;
     width:50%;
@@ -325,20 +333,20 @@ button span {
     position: relative; */
 }
 
-.NatSection img {
+.natSection img {
     height:462px;
     width:50%;
     float:right;
 }
 
-.Nature h2, .photography h2 {
+.nature h2, .photography h2 {
     font-familY:'Playfair Display', serif;
     font-size:3.2rem;
     text-align: right;
     margin-top:0;
 }
 
-.Nature p, .photography p{
+.nature p, .photography p{
     font-display: 'Lato', sans-serif;
     line-height:1.61;
     text-align:right;
@@ -519,24 +527,24 @@ h6 {
 }
 
 
-
-
-
-
 .hamburgerMenu {
     float:right;
     margin-top:10px;
     font-size:30px;
+    color:white;
     display:none;
 }
 
+
+/* 320px */
 /* mobile 400px; */
-@media(max-width:400px) {
-    .hamburgerMenu{
+/* 768px tablet */
+
+@media(max-width:768px) {
+    .topNav li:last-child {
         display:block;
     }
-
-    .topNav {
+    .topNav li {
         display:none;
     }
 
