@@ -274,7 +274,7 @@ ul li a {
     font-size:1.8rem;
     text-align:left;
     width:100%;
-    margin:0 auto;
+    margin:0 auto 15px 0;
     line-height:2.9rem;
 
 }
@@ -609,6 +609,29 @@ h6 {
     .submitSubscribe {
         width: 100%;
     }
+        .infoSec {
+        padding: 50px 0 50px 0;
+    }
+    .infoOne {
+        width: 50%;
+
+    }
+
+    .infoOne, .infoOne li, .infoThree, .infoThree li {
+        text-align: center;
+    }
+
+    .infoTwo {
+        margin-bottom: 30px;
+    }
+
+    .emailInput {
+        margin-bottom: 10px;
+    }
+    .infoTwo, .infoThree {
+        float: none;
+        width: 100%;
+    }
 }
 
 
@@ -647,30 +670,6 @@ h6 {
 
     ul li a {
         margin: 0;
-    }
-
-    .infoSec {
-        padding: 50px 0 50px 0;
-    }
-    .infoOne {
-        width: 50%;
-
-    }
-
-    .infoOne, .infoOne li, .infoThree, .infoThree li {
-        text-align: center;
-    }
-
-    .infoTwo {
-        margin-bottom: 30px;
-    }
-
-    .emailInput {
-        margin-bottom: 10px;
-    }
-    .infoTwo, .infoThree {
-        float: none;
-        width: 100%;
     }
 }
 
