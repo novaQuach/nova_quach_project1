@@ -17,7 +17,7 @@ html {
 
 .wrapper{
     max-width: 1280px;
-    width:80%; /*wrapper will take 80% of the page*/
+    width:80%; 
     margin: 0 auto;
 }
 
@@ -28,7 +28,6 @@ html {
     
 }
 
-/* HEADER STYLES */
 
 header{
     background: url(../Assets/image-1.jpg);
@@ -54,7 +53,6 @@ h1{
 
 ul {
     float:right;
-    /* display:inline-block; */
     text-align:right;
     padding-top:2.5%;
     margin:0;
@@ -69,10 +67,8 @@ ul {
 
 
 
-/* 'welcome to shutter' */
+
 .shutter {
-    /* position: absolute; */
-    /* width:476px; */
     margin: 130px auto 0 auto;
     text-align: center;
 }
@@ -137,7 +133,6 @@ ul li a {
 } 
 
 
-/* About shutter section styles */
 .aboutShutter {
     background:#f0f5ff;
     padding: 100px 0 100px 0;
@@ -187,14 +182,6 @@ ul li a {
     display: block;
 }
 
-/* button span {
-        font-family: 'Lato', sans-serif;
-        font-size:1.8rem;
-        color:#1f2022;
-        text-transform:uppercase;
-        /* padding: 17px 20px 17px 21px; */
-
-} */
 
 .gallerySection {
     background:#fcfcfc;
@@ -202,7 +189,7 @@ ul li a {
 
 .gallery img {
     margin:100px 3.1% 100px 0;
-    width: 31%; /* 400px divided by 80% of 1600 */
+    width: 31%; 
 }
 
 .gallery img:last-of-type {
@@ -212,7 +199,6 @@ ul li a {
 .midNavSection{
     background: url(../Assets/image-5.png);
     background-size:cover;
-    /* height:300px; */
 }
 
 .midNav {
@@ -224,7 +210,7 @@ ul li a {
 }
 
 .midNav li {
-    width: 179px;  /* width of li = 900px or 56.5% ; 56.25/4*/
+    width: 179px;  
     margin-right: 58px; 
 }
 
@@ -247,7 +233,6 @@ ul li a {
     /*(60.7px / 900px)*/
 }
 
-/* Behind the scenes styles */
 .behindSection {
     padding-top: 100px;
     margin-bottom: 100px;
@@ -286,7 +271,6 @@ ul li a {
     margin-bottom: 30px;
 }
 
-/* Nature and Scenery Section */
 .natSection {
     max-width:100%;
 }
@@ -302,9 +286,7 @@ ul li a {
     float: right;
     margin: 100px 148px 0 0;
     width:300px;
-    /* margin-top: 100px; */
-    /* right: 148px;
-    position: relative; */
+   
 }
 
 .natSection img {
@@ -345,7 +327,6 @@ ul li a {
     padding:0;
 }
 
-/* Candid Photography section */
 .candidSection {
     width:100%;
 }
@@ -482,7 +463,6 @@ h6 {
     display: inline-block;
 }
 
-/*Media query begins */
 
 
 .hamburgerMenu {
@@ -502,10 +482,6 @@ h6 {
 }
 
 
-/* 320px */
-/* mobile 400px; */
-/* 768px tablet */
-/* 930px */
 
 @media(max-width:1200px) {
     .emailInput {
@@ -689,4 +665,8 @@ h6 {
     .behindSection img {
         width: 250px;
     }
+}
+
+.socialMedia a :hover {
+    font-weight:900;
 }
